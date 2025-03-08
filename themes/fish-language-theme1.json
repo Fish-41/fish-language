@@ -14,7 +14,14 @@
             }
         },
         {
-            "scope": "keyword.control.init.gfish, keyword.control.end.gfish, keyword.control.time.gfish",
+            "scope": "keyword.control.init.gfish, keyword.control.init-end.gfish",
+            "settings": {
+                "foreground": "#FFA500",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": "keyword.control.end.gfish, keyword.control.time.gfish",
             "settings": {
                 "foreground": "#569CD6",
                 "fontStyle": "bold"
