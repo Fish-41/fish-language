@@ -56,7 +56,7 @@ No known isssues currently.
 
 Users appreciate release notes as you update your extension.
 
-### 1.0.0
+### 0.0.1
 
 Initial release of grammer and pretty colours.
 
