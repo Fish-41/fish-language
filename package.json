@@ -1,0 +1,25 @@
+{
+  "name": "fish-language",
+  "displayName": "Fish Language",
+  "description": "Adds syntax highlighting and language support for Fish Language (.gfish) files.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "gfish",
+      "aliases": ["Fish Language", "gfish"],
+      "extensions": [".gfish"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "gfish",
+      "scopeName": "source.gfish",
+      "path": "./syntaxes/gfish.tmLanguage.json"
+    }]
+  }
+}
