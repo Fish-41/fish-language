@@ -3,6 +3,7 @@
   "displayName": "Fish Language",
   "description": "Adds syntax highlighting and language support for Fish Language (.gfish) files.",
   "version": "0.0.1",
+  "publisher": "fish-41"
   "repository": {
     "type": "git",
     "url": "https://github.com/Fish-41/fish-language"
