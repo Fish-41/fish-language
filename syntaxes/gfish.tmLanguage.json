@@ -27,7 +27,7 @@
             },
             "end": "^(end)$",
             "endCaptures": {
-                "1": { "name": "keyword.control.end.gfish" }
+                "1": { "name": "keyword.control.init-end.gfish" }
             },
             "patterns": [
 				{ "include": "#comment" },
