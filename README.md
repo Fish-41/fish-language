@@ -37,26 +37,14 @@ Type handling:
 
 Needs a dedicated CMD OOT Block inside GNU Radio to make use of it.
 
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
 ## Known Issues
 
 No known isssues currently.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
 
-### 0.0.1
+### 0.0.2
 
 Initial release of grammer and pretty colours.
 
