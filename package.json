@@ -20,6 +20,11 @@
       "language": "gfish",
       "scopeName": "source.gfish",
       "path": "./syntaxes/gfish.tmLanguage.json"
+    }],
+    "themes": [{
+      "label": "Fish Language Theme",
+      "uiTheme": "vs-dark",
+      "path": "./themes/fish-language-theme1.json"
     }]
   }
 }

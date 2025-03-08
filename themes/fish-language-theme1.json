@@ -1,0 +1,50 @@
+{
+    "name": "Fish Dark",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#1E1E1E",
+        "editor.foreground": "#D4D4D4"
+    },
+    "tokenColors": [
+        {
+            "scope": "comment.line.gfish",
+            "settings": {
+                "foreground": "#6A9955",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "keyword.control.init.gfish, keyword.control.end.gfish, keyword.control.time.gfish",
+            "settings": {
+                "foreground": "#569CD6",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": "meta.block.init.gfish",
+            "settings": {
+                "foreground": "#C586C0"
+            }
+        },
+        {
+            "scope": "meta.block.time.gfish",
+            "settings": {
+                "foreground": "#D4D4D4"        
+            }
+        },
+        {
+            "scope": "keyword.control.init-command.gfish",
+            "settings": {
+                "foreground": "#CE9178",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "keyword.control.command.gfish",
+            "settings": {
+                "foreground": "#4EC9B0",
+                "fontStyle": "italic"
+            }
+        }
+    ]
+}
