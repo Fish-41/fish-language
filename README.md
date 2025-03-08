@@ -7,12 +7,13 @@ This is a pseudo language for use with dedicated CMD OOT Blocks in GNU Radio to 
 Able to edit the top level flowgraph as well as run commands inside other blocks including custom blocks at set times. Some other block specific commands that require specific CMD Blocks and hardware devices to work.
 
 Currently available init commands:
-* `rURI1` and `rURI2`: Used to initialize PlutoSDR
+* `rURI1` and `rURI2`: Used to initialize Receiving PlutoSDR 1 and 2
 
 Currently available time block commands:
 * `fg`: Used to run top level flowgraph commands
 * `id`: Used to run commands for specific block IDs
 * `agc` (bool): Used to turn on and off the AGC when used with the CMD AGC block
+* `br1` and `br2`: Used to set the frontend bandwidth of Receiving PlutoSDR 1 and 2
 
 ## Format
 
